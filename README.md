@@ -5,8 +5,10 @@ Versions:
 node: 18.17.1
 react: 18.2.0
 typescript: 4.9.5
+IDE: Visual Studio Code
 
-To run the project just clone it from git, run in the console npm install, and then npm start.
+first step for running the procjet is to clone the repository from github: open cmd from the desired folder you want to save to project to and run the command "git clone https://github.com/amirm363/reactShoppingList.git"
+run in the console npm install, and then npm start.
 
 Added features:
 In ManageShoppintList component I've added a section that allows the user to review his items and
