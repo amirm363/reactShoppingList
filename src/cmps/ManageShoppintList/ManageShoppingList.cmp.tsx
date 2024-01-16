@@ -23,7 +23,7 @@ const ManageShoppingList = ({ moveToSummary }: ManageShoppingListProps) => {
     const [categories, setCategories] = useState<any[]>([])
     const [productsByCategory, setProductsByCategory] = useState<{ [key: number]: Product[] }>({})
     const [chosenCategory, setChosenCategory] = useState<any>(null)
-    // const [chosenProducts, setChosenProducts] = useState<any>(null)
+
     const [filteredProducts, setFilteredProduct] = useState<Product[]>([])
 
     const totalProducts = useSelector(
@@ -58,7 +58,7 @@ const ManageShoppingList = ({ moveToSummary }: ManageShoppingListProps) => {
             setCategories(categories)
             setChosenCategory(categories[0])
             setIsLoading(false)
-            // console.log("🚀 ~ itemsByCategory ~ itemsByCategory:", itemsByCategory)
+
         } catch (err) {
             console.log(err)
         }
@@ -83,7 +83,6 @@ const ManageShoppingList = ({ moveToSummary }: ManageShoppingListProps) => {
         } else {
             tempSubSum[tempChosenCategoryName][product.name] = 1;
         }
-        // setChosenProducts((prevValue: any) => { return { ...prevValue, ...tempSubSum } })
         dispatch(gatherProducts(tempSubSum))
     }
 

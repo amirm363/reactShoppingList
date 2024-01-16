@@ -36,7 +36,6 @@
             border-radius: 5px;
             padding: 0.3rem 0.2rem;
             max-width: 250px;
-            // width: 100%;
             &::placeholder{
                 text-align: center; 
             }
@@ -61,7 +60,6 @@
     .totalProducts{
         width: 40%;
         min-width: 280px;
-        // max-width: 365px;
         display: flex;
         justify-content: space-between;
         font-size: 20px;
@@ -69,7 +67,6 @@
         padding: 2rem 1rem;
         border-top: 1px solid black;
         >span{
-            // width: 40%;
         }
     }
     >p:last-child{

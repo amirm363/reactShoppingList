@@ -1,13 +1,9 @@
 .manageShoppingListMainContainer{
-    
     display: flex;
     flex-direction: column;
     align-items: center;
-    // height: 100%;
-    // width: 100%;
     margin: 0 auto;
     direction: rtl;
-    // padding: 0 2rem;
     max-width: 1000px;
     width: 100%;
     height: 100vh;
@@ -46,12 +42,10 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            /* max-width: 600px; */
             padding-bottom: 2rem;
             gap: 2%;
             row-gap: 1rem;
             input, select{
-                // all:unset;
                 min-width: 200px;
                 font-size:20px;
                 outline: none;
@@ -61,7 +55,6 @@
                 padding: 0 0.2rem;
                 width: 33%;
                 max-width: 250px;
-                // width: 100%;
                 &::placeholder{
                     text-align: center; 
                 }
@@ -84,7 +77,6 @@
             width: 100%;
             height: 20vh;
             >div{
-                // height: 100%;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -98,10 +90,7 @@
                 }
             }
             .productsContainer{
-                // align-self: flex-start;
-                // height: 20vh;
                 height:100%;
-                // width: fit-content;
                 overflow-y: auto;
                 display: flex;
                 flex-direction: column;
@@ -115,10 +104,8 @@
                     all:unset;
                     width: 80%;
                     height: 54px;
-                    // flex:1;
                     flex-shrink: 0;
                     font-weight: 500;
-                    // padding: 1rem 0;
                     border-radius: 6px;
                     outline: none;
                     border: none;
@@ -136,7 +123,6 @@
                 align-items: center;
                 justify-content: center;
                 overflow:hidden;
-                // padding-left:1rem;
                 >ul{
                     height:100%;
                     width:80%;
@@ -176,13 +162,6 @@
             flex-wrap: wrap;
             margin-bottom: 1rem;
         }
-        // >button{
-        //     font-weight: 550;
-        //     border-radius: 7px;
-        //     padding: 0.3rem 1rem;
-        //     transition: all 0.2s ease;
-        //     cursor: pointer;
-        // }
     }
 }
 

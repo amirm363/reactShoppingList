@@ -13,7 +13,6 @@ export const fetchDataFromDB = async (dataType: string) => {
 
 // Function that sends data to server
 export const sendDataToDB = async (payLoad: SummaryPayload) => {
-    console.log("🚀 ~ sendDataToDB ~ payLoad:", payLoad)
     try {
         const { data } = await axios.post('https://localhost:7111/ShoppingSummary', payLoad)
         return data;

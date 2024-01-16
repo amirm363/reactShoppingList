@@ -101,7 +101,7 @@ const OrderSummary = ({ backToShopping }: OrderSummaryProps) => {
     }
 
 
-    // useEffect(() => { console.log(userDetails) }, [userDetails])
+
     return (
         <div className={styles.orderSummaryMainContainer}>
             <ArrowBackRoundedIcon className={styles.backArrow} onClick={() => { backToShopping(false) }} />
